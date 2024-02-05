@@ -1,0 +1,197 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/brain-shaped-electronic-circuit-nonlzgp89shw69g0.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-bottom: 5px solid #e0e0e0;
+}
+
+h1.professional {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #8BC34A;
+}
+
+p.professional {
+  font-size: 16px;
+  color: #666;
+}
+
+nav {
+  background-color: #8BC34A; /* Medium green */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #7CB340; /* Darker green on hover */
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.project-item {
+  background-color: #fdfbf4; /* Light beige for a natural feel */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.project-item h3 {
+  color: #8BC34A; /* Medium green for freshness */
+  margin-bottom: 0.5em;
+  font-family: 'Pacifico', cursive; /* Playful font for titles */
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 128, 0, 0.2); /* Green shadow on hover */
+}
+
+.project-item p {
+  color: #449d44;
+  line-height: 1.5; /* Increase line-height for readability */
+}
+
+.project-item img {
+  border-radius: 5px; /* Add subtle image rounding */
+}
+
+
+.project-item:hover::after {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  color: #f90; /* Orange accent */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-item:hover::after {
+  opacity: 1;
+}
+
+form {
+  margin: 20px auto;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #449d44;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.valid {
+  border-color: #4CAF50;
+}
+
+.invalid {
+  border-color: #f90000;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #449d44;
+}
+
+
+h1 {
+  color: #8BC34A;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #449d44;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+a {
+  background-color: #7CB340;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #669933;
+}
+.footer {
+  background: linear-gradient(to right, #f2f2f2 0%, #e0f2f5 100%); /* Light blue gradient */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.container p {
+  color: #ee544f;
+  font-family: sans-serif; /* Clear, readable font */
+  margin-bottom: 10px;
+}
+
+.container p:last-child {
+  margin-bottom: 0;
+}
+
+.container .heart {
+  font-size: 18px;
+  color: #e74c3c; /* Red heart */
+}

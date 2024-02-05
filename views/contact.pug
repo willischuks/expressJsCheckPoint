@@ -1,0 +1,14 @@
+extends layout
+
+block content 
+    header
+        h1.professional Contact Me
+        p.professional I'm open to new opportunities and collaborations. Feel free to get in touch!
+        form(action='/submit-contact', method='post')
+        label(for='name') Your Full Name:
+        input(type='text', id='name', name='name', required)
+        label(for='email') Your Email:
+        input(type='email', id='email', name='email', required)
+        label(for='message') Your Message:
+        textarea(id='message', name='message', rows='4', required)
+        button(type='submit') Send Message
